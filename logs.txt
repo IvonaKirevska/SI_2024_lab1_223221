@@ -1,0 +1,37 @@
+$ git log
+commit 275af94d7d498812a0bdf2da6a47afcce7b0eb91 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 12:26:18 2024 +0100
+
+     Call method makeBigStringFrom in main class
+
+commit 1a93bd226533f866bd8f5c6ceca0f7f415b84e32
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 12:12:14 2024 +0100
+
+    Fix wrong condition in makeBigStringFrom
+
+commit c00e613b890969da898108a0da7230a29e6cc508 (origin/bug1, bug1)
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 12:19:02 2024 +0100
+
+    Call method filterOddLengthStrings in main class
+
+commit 2a5d02810bfa3e417ae17ac3500627b419a7e02d
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 12:04:31 2024 +0100
+
+    Fix wrong condition in filterOddLengthString
+
+commit ccdabe36655c6c988b729891ad39d418a751f008
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 11:30:22 2024 +0100
+
+    Add starter code
+
+commit 84e6c9af3d10cde70c665866e99f2fb101ed15a0
+Author: Ivona Kirevska <ivonakirevska@yahoo.com>
+Date:   Fri Mar 29 10:07:40 2024 +0100
+
+    Initial commit.
+(END)

@@ -1,0 +1,26 @@
+4. Влегувам во директориумот SI_2024_lab1_223221 и со командата $ git init го иницијализираме Git во директориумот.
+5. Со командата $ git remote add origin https://github.com/IvonaKirevska/SI_2024_lab1_223221.git го поврзуваме локалниот репозиториум со оддалечениот репозиториум.
+6. Со командата $ echo "Ivona Kirevska 223221" >> README.md креирам датотека README.md со моето име, презиме и индекс. Потоа со $ git add датотеката ја ставаме во staged фаза и со $ git commit -m "Initial commit" правиме commit на датотеката.
+7. На поставените три фајлови ја употребуваме командата $ git add а потоа $git commit со порака "Add starter code.".
+8. Ги синхронизирам фајловите со командата $ git push -u origin master.
+9. Креирам две гранки со команда $ git checkout -b bug1 и $ git checkout -b bug1.
+10. Се префрлам на гранката bug1 со командата $ git checkout bug1.
+11. Со командата $ nano SILab1_1.java го отворам фајлот SILab1_1 и ја поправам грешката, потоа правам $ git add а потоа $git commit -m со порака "Fix wrong condition in filterOddLengthStrings".
+12. Се префрлам на гранката bug2 со командата $ git checkout bug2.
+13. Со командата $ nano SILab1_2.java го отворам фајлот SILab1_2 и ја поправам грешката, потоа правам $ git add а потоа $git commit -m со порака "Fix wrong condition in makeBigStringFrom".
+14. Се префрлам на гранката bug1 со командата $ git checkout bug1.
+15. Со командата $ nano SILab1Main.java го отворам фајлот SILab1Main и додавам повик на метод, потоа правам $ git add а потоа $git commit -m со порака "Call method filterOddLengthStrings in main class".
+16. Се префрлам на гранката bug2 со командата $ git checkout bug2.
+17. Со командата $ nano SILab1Main.java го отворам фајлот SILab1Main и додавам повик на метод, потоа правам $ git add а потоа $git commit -m со порака "Call method makeBigStringFrom in main class".
+18. Ги синхронизирам двете гранки со командата $git push -u origin bug1 и $git push -u origin bug2.
+19. Се префрлам на гранката master со командата $ git checkout master.
+20. Ја спојуваме гранката bug1 кон гранката master со командата $git merge bug1.
+21. Синхронизираме со командата $git push -u origin master.
+22. Се префрлам на гранката bug2 со командата $ git checkout bug2.
+23. Ја користиме командата $git rebase master по што се јавува конфликт, конфликтот го решаваме, потоа правам $git add и $git rebase --continue и успешно правиме rebase.
+24. Се префрлам на гранката master со командата $ git checkout master.
+25. Ја спојуваме гранката bug2 кон гранката master со командата $git merge bug2.
+26. Синхронизираме со командата $git push -u origin master.
+27. Синхронизираме со командата $git push -u origin bug1 и $git push -u origin bug2 --force.
+28. Со $ nano logs.txt креираме нова датотека и ги копираме досегашните гит логови.
+29. Синхронизираме со командата $git push -u origin master.
